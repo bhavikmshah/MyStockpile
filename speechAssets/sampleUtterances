@@ -1,0 +1,14 @@
+GetTopTrendingStockIntent get me top trending stock
+GetTopTrendingStockIntent list all top trending stock
+GetTopTrendingStockIntent get all top trending stock
+GetTopTrendingStockIntent get me all top trending stock
+
+CompanyToBuyIntent I would like to buy stock of {companyName}
+CompanyToBuyIntent buy stock of {companyName}
+
+DollarAmountIntent amount to buy {amount} dollar
+DollarAmountIntent buy {amount} dollar
+DollarAmountIntent buy {amount} dollar of stock
+DollarAmountIntent buy {amount} dollar worth of stock
+
+
