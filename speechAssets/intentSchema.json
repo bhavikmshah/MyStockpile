@@ -1,10 +1,19 @@
 {
-  "intents": [    
+  "intents": [
     {
-      "intent": "GetTopTrendingStockIntent"      
+      "intent": "GetTopTrendingStockIntent"
     },
     {
       "intent": "CompanyToBuyIntent",
+      "slots": [
+        {
+          "name": "companyName",
+          "type": "LIST_OF_COMPANY"
+        }
+      ]
+    },
+    {
+      "intent": "GetCompanyPriceIntent",
       "slots": [
         {
           "name": "companyName",
@@ -21,17 +30,43 @@
         }
       ]
     },
-     {
+    {
+      "intent": "GetProfileIntent"
+    },
+    {
+      "intent": "GetBalanceIntent"
+    },
+    {
       "intent": "AMAZON.YesIntent"
     },
-     {
+    {
       "intent": "AMAZON.HelpIntent"
     },
-     {
+    {
       "intent": "AMAZON.CancelIntent"
-    },    
-     {
+    },
+    {
       "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.NoIntent"
+    },
+    {
+      "intent": "NotNowIntent"
+    },
+    {
+      "intent": "ContactIntent"
+    },
+    {
+      "intent": "AboutIntent"
+    },
+    {
+      "intent": "CompanyNameIntent",
+      "slots": [
+        {
+          "name": "companyName",
+          "type": "LIST_OF_COMPANY"
+        }]
     }
   ]
 }

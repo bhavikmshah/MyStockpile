@@ -1,14 +1,75 @@
-GetTopTrendingStockIntent get me top trending stock
-GetTopTrendingStockIntent list all top trending stock
-GetTopTrendingStockIntent get all top trending stock
-GetTopTrendingStockIntent get me all top trending stock
+GetTopTrendingStockIntent top trending stock
+GetTopTrendingStockIntent list top trending stock
+GetTopTrendingStockIntent top trending stocks
+GetTopTrendingStockIntent list top trending stocks
 
 CompanyToBuyIntent I would like to buy stock of {companyName}
+CompanyToBuyIntent buy stocks of {companyName}
+CompanyToBuyIntent help me buy stocks of {companyName}
+CompanyToBuyIntent help me buy shares of {companyName}
 CompanyToBuyIntent buy stock of {companyName}
+CompanyToBuyIntent buy shares of {companyName}
+CompanyToBuyIntent buy a share of {companyName}
+CompanyToBuyIntent I would like to buy {companyName} stock
+CompanyToBuyIntent buy {companyName} stock
+CompanyToBuyIntent buy {companyName} stocks
+CompanyToBuyIntent buy {companyName} shares
+CompanyToBuyIntent buy  {companyName} shares
+CompanyToBuyIntent {companyName}
+CompanyToBuyIntent company  {companyName}
+CompanyToBuyIntent name  {companyName}
+
+GetCompanyPriceIntent price of {companyName}
+GetCompanyPriceIntent get me price of {companyName}
+GetCompanyPriceIntent get price of {companyName}
+GetCompanyPriceIntent list price of {companyName}
+GetCompanyPriceIntent {companyName} list price
+GetCompanyPriceIntent {companyName} get price
+GetCompanyPriceIntent list price for {companyName}
+GetCompanyPriceIntent get price for {companyName}
 
 DollarAmountIntent amount to buy {amount} dollar
+DollarAmountIntent amount to buy {amount} dollars
 DollarAmountIntent buy {amount} dollar
+DollarAmountIntent buy {amount} dollars
 DollarAmountIntent buy {amount} dollar of stock
+DollarAmountIntent buy {amount} dollar of stocks
 DollarAmountIntent buy {amount} dollar worth of stock
+DollarAmountIntent buy {amount} dollars worth of stock
+DollarAmountIntent {amount} dollar
+DollarAmountIntent {amount} dollars
+DollarAmountIntent {amount}
 
+GetProfileIntent list profile
+GetProfileIntent  profile
+GetProfileIntent view profile
+GetProfileIntent list profile information
+GetProfileIntent profile information
+GetProfileIntent view profile information
 
+GetBalanceIntent balance
+GetBalanceIntent stockpile balance
+
+AMAZON.HelpIntent what can you do for me
+AMAZON.HelpIntent how it can help me
+
+NotNowIntent not now
+NotNowIntent no
+NotNowIntent not for time being
+
+ContactIntent ask stockpile to contact
+ContactIntent ask stockpile to call
+ContactIntent call
+ContactIntent please call
+ContactIntent contact
+ContactIntent please contact
+
+AboutIntent about stockpile
+AboutIntent about
+AboutIntent about the company
+AboutIntent about its business model
+AboutIntent about its services
+AboutIntent what is stockpile
+AboutIntent brief about the company
+AboutIntent what do you do
+AboutIntent what services do you offer

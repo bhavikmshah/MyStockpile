@@ -1,3 +1,13 @@
+var breakTime = {
+        FIFTY : '<break time = "50ms"/>',
+        HUNDRED : '<break time = "100ms"/>',
+        TWOHUNDRED : '<break time = "200ms"/>',
+        TWOFIFTY : '<break time = "250ms"/>',
+        THREEHUNDRED : '<break time = "300ms"/>',
+        FIVEHUNDRED : '<break time = "500ms"/>'
+}
+
+
 module.exports = {
 
 TOP_TRENDING_STOCK_MSG : 'Top trending stocks are ',
@@ -11,4 +21,6 @@ REPROMPT_MSG : 'Reprompt',
 BUY_STOCK_REPROMPT_MSG : 'Would you like to buy any other stock?',
 NO_COMPANY_FOUND_MSG : 'No company found by name',
 STOP_MESSAGE: 'GoodBye!',
+COMPANY_NOT_FOUND_MSG : 'We were not able to find the company. ${breakTime.FIFTY} Can you please repeat the company name',
+UNHANDLED_MSG: `am not sure what you mean? ${breakTime.FIFTY} would you require some help?`,
 }

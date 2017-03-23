@@ -15,6 +15,10 @@
   "author": "Bhavik",
   "dependencies": {
     "alexa-sdk": "^1.0.7",
+    "moment": "^2.18.1",
+    "moment-timezone": "^0.5.11",
+    "nodemailer": "^2.7.2",
+    "promise": "^7.1.1",
     "request": "^2.80.0"
   }
 }
