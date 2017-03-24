@@ -10,7 +10,9 @@ PLACE_ORDER_URL : process.env.PLACE_ORDER_URL || 'https://qaapp.stockpiletest.co
 FROM_USER_EMAIL_ADDR : process.env.FROM_USER_EMAIL_ADDR || '<bhavik.shah@miles.in>',
 TO_USER_EMAIL_ADDR : process.env.TO_USER_EMAIL_ADDR || 'bhavik.shah@miles.in',
 EMAIL_PASSWORD: process.env.EMAIL_PASSWORD,
-STOCKPILE_USER_NAME : process.env.STOCKPILE_USER_NAME || 'party1@stockpile.com',
-STOCKPILE_USER_PASSWORD : process.env.STOCKPILE_USER_PASSWORD || 'Stockpile1',
+STOCKPILE_USER_NAME : process.env.STOCKPILE_USER_NAME,
+STOCKPILE_USER_PASSWORD : process.env.STOCKPILE_USER_PASSWORD,
+GET_ALL_CREDITCARDS_URL : process.env.GET_ALL_CARDS_OF_USER || 'https://qaapp.stockpiletest.com/app/api/accounts/sec/allcards', 
+GET_ALL_CATEGORY_URL
 
 }
