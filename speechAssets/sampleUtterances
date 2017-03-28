@@ -73,3 +73,8 @@ AboutIntent what is stockpile
 AboutIntent brief about the company
 AboutIntent what do you do
 AboutIntent what services do you offer
+
+DevelopedByIntent creator of skill
+DevelopedByIntent developed by 
+DevelopedByIntent creator 
+DevelopedByIntent who developed the skill

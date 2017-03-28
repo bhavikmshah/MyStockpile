@@ -67,6 +67,9 @@
           "name": "companyName",
           "type": "LIST_OF_COMPANY"
         }]
-    }
+    },
+    {
+      "intent":"DevelopedByIntent"
+    },
   ]
 }

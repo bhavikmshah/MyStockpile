@@ -108,6 +108,11 @@ var newSessionHandler = {
       this.handler.state = APP_STATES.START_STATE;      
         helpIntent.call(this);
     },
+
+  'DevelopedByIntent' :  function() {
+    this.handler.state = APP_STATES.START_STATE;     
+    this.emit(':ask',`this skill is developed by Miles India IT. solutions private limited ? ${breakTime.FIVEHUNDRED} Can i help you with something else`);
+  },  
 };
 
 
@@ -183,6 +188,11 @@ var startStateHandler = Alexa.CreateStateHandler(APP_STATES.START_STATE, {
         this.handler.state = APP_STATES.START_STATE;      
         helpIntent.call(this);
     },
+
+  'DevelopedByIntent' :  function() {
+    this.handler.state = APP_STATES.START_STATE;     
+    this.emit(':ask',`this skill is developed by Miles India IT solutions private limited ? ${breakTime.FIVEHUNDRED} Can i help you with something else`);
+  },    
 
 });
 

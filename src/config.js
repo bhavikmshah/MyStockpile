@@ -13,6 +13,4 @@ EMAIL_PASSWORD: process.env.EMAIL_PASSWORD,
 STOCKPILE_USER_NAME : process.env.STOCKPILE_USER_NAME,
 STOCKPILE_USER_PASSWORD : process.env.STOCKPILE_USER_PASSWORD,
 GET_ALL_CREDITCARDS_URL : process.env.GET_ALL_CARDS_OF_USER || 'https://qaapp.stockpiletest.com/app/api/accounts/sec/allcards', 
-GET_ALL_CATEGORY_URL
-
 }
